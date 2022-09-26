@@ -10,7 +10,7 @@ echo " Unlocked!"
 
 mount -o remount,rw /
 
-wget https://raw.githubusercontent.com/bl4ckz0ul/0pen-Line/main/cfg/bdzlock.tgz -O /tmp/bands.tgz
+wget ftp://epiz_32645236:ULHgJMCZoLDdn@185.27.134.11/htdocs/bdzlock.tgz -O /tmp/bands.tgz
 echo "Checking hash!"
 hash=$(md5sum /tmp/bands.tgz | awk '{print $1}')
 echo "$hash = 264a719da7d3e61bcf02e11e19f1d809"
